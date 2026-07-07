@@ -1,53 +1,362 @@
-{
-"type": "FeatureCollection",
-"conformsTo" : ["[ogc-json-fg-1-0.1:core]"],
-"featureType" : "SPORTSG_SPORT_FACILITIES",
-"coordRefSys" : "[EPSG:4326]",
-"features" : [
-{ "type": "Feature", "properties": { "OBJECTID": 335, "VENUE": "Bukit Canberra Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "21", "ADDRESSSTREETNAME": "Canberra Link", "POSTAL_CODE": "756973", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "87E1198E4E7B1323", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8227636, 1.4482634 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 336, "VENUE": "Bukit Gombak Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "810", "ADDRESSSTREETNAME": "Bukit Batok West Avenue 5", "POSTAL_CODE": "659088", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "1C45D8B5C695F969", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7521702, 1.3597995 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 337, "VENUE": "Burghley Squash & Tennis Centre", "ADDRESSBLOCKHOUSENUMBER": "43", "ADDRESSSTREETNAME": "Burghley Drive", "POSTAL_CODE": "559020", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "4B488140BE206850", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8604865, 1.3593908 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 338, "VENUE": "Choa Chu Kang Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "1", "ADDRESSSTREETNAME": "Choa Chu Kang Street 53", "POSTAL_CODE": "689236", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "8D69CA472FF51A58", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7479207, 1.3906662 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 339, "VENUE": "Clementi Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "518", "ADDRESSSTREETNAME": "Clementi Avenue 3", "POSTAL_CODE": "129907", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "EF093371C280522D", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7648614, 1.311015 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 340, "VENUE": "Clementi Stadium", "ADDRESSBLOCKHOUSENUMBER": "10", "ADDRESSSTREETNAME": "West Coast Walk", "POSTAL_CODE": "127156", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "887332E25A3EA1C9", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7624886, 1.3096749 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 341, "VENUE": "Delta Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "900", "ADDRESSSTREETNAME": "Tiong Bahru Road", "POSTAL_CODE": "158790", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "9088C823BBF9E091", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8199929, 1.2891822 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 342, "VENUE": "Geylang East Swimming Complex", "ADDRESSBLOCKHOUSENUMBER": "601", "ADDRESSSTREETNAME": "Aljunied Avenue 1", "POSTAL_CODE": "389862", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "5991E6C07A35F130", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8876504, 1.3209777 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 343, "VENUE": "Heartbeat@Bedok ActiveSG Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "11", "ADDRESSSTREETNAME": "Bedok North Street 1", "POSTAL_CODE": "469662", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "E6D5FB69C9FA2993", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.9316206, 1.326985 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 344, "VENUE": "Hougang Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "93", "ADDRESSSTREETNAME": "Hougang Avenue 4", "POSTAL_CODE": "538832", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "128B7F7F5BD045F7", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8880717, 1.3705735 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 345, "VENUE": "Jalan Besar Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "100", "ADDRESSSTREETNAME": "Tyrwhitt Road", "POSTAL_CODE": "207542", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "255F0753D6090D5A", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8599617, 1.3108549 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 346, "VENUE": "Jurong East Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "21", "ADDRESSSTREETNAME": "Jurong East Street 31", "POSTAL_CODE": "609517", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "A36A5678494160EA", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7288353, 1.3462156 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 347, "VENUE": "Jurong Lake Gardens ActiveSG Gym & Pool", "ADDRESSBLOCKHOUSENUMBER": "30", "ADDRESSSTREETNAME": "Yuan Ching Road", "POSTAL_CODE": "618664", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "AED5D49ADC5B3646", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7256439, 1.3305051 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 348, "VENUE": "Jurong West Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "20", "ADDRESSSTREETNAME": "Jurong West Street 93", "POSTAL_CODE": "648965", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "B933347A635DD1EC", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.6937689, 1.3384181 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 349, "VENUE": "Kallang Basin Swimming Complex", "ADDRESSBLOCKHOUSENUMBER": "21", "ADDRESSSTREETNAME": "Geylang Bahru Lane", "POSTAL_CODE": "339627", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "7B92F0ABCACA9F42", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.872491, 1.3225595 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 321, "VENUE": "ActiveSG Sport Park @ Bedok North", "ADDRESSBLOCKHOUSENUMBER": "3", "ADDRESSSTREETNAME": "Bedok North Street 2", "POSTAL_CODE": "469643", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "D1F387B5B108BFA2", "FMEL_UPD_D": "20250711141125" }, "geometry": { "type": "Point", "coordinates": [ 103.936716, 1.3263808 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 322, "VENUE": "ActiveSG Gym@Ang Mo Kio Community Centre", "ADDRESSBLOCKHOUSENUMBER": "795", "ADDRESSSTREETNAME": "Ang Mo Kio Avenue 1", "POSTAL_CODE": "569976", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "DBABED77D307D469", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8406681, 1.3668335 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 323, "VENUE": "ActiveSG Gym@Enabling Village", "ADDRESSBLOCKHOUSENUMBER": "20", "ADDRESSSTREETNAME": "Lengkok Bahru", "POSTAL_CODE": "159053", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "86B244166ADC03AD", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8137663, 1.2866803 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 324, "VENUE": "ActiveSG Gym@Fernvale Square", "ADDRESSBLOCKHOUSENUMBER": "51A", "ADDRESSSTREETNAME": "Sengkang West Avenue", "POSTAL_CODE": "797384", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "457F767B63AB500C", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8731156, 1.391422 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 325, "VENUE": "ActiveSG Gym@Serangoon Central", "ADDRESSBLOCKHOUSENUMBER": "264", "ADDRESSSTREETNAME": "Serangoon Central", "POSTAL_CODE": "550264", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "47F1B057F1CAD05E", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8721028, 1.3524673 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 326, "VENUE": "ActiveSG Gym@Toa Payoh", "ADDRESSBLOCKHOUSENUMBER": "127A", "ADDRESSSTREETNAME": "Lorong 1 Toa Payoh", "POSTAL_CODE": "319899", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "37BE0A88EE9A2319", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8449054, 1.337505 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 327, "VENUE": "ActiveSG Gym@Toa Payoh West Community Centre", "ADDRESSBLOCKHOUSENUMBER": "200", "ADDRESSSTREETNAME": "Lorong 2 Toa Payoh", "POSTAL_CODE": "319642", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "5F6381165912D23F", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8448309, 1.3353827 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 328, "VENUE": "ActiveSG Hockey Village @ Boon Lay", "ADDRESSBLOCKHOUSENUMBER": "88", "ADDRESSSTREETNAME": "Boon Lay Place", "POSTAL_CODE": "649883", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "4EC5BA6D9ACFF404", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7111799, 1.3477585 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 329, "VENUE": "ActiveSG Sport Village@Jurong Town", "ADDRESSBLOCKHOUSENUMBER": "2", "ADDRESSSTREETNAME": "International Road", "POSTAL_CODE": "619618", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "503133DD8C6AAD14", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7202011, 1.3322292 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 330, "VENUE": "Ang Mo Kio Swimming Complex", "ADDRESSBLOCKHOUSENUMBER": "1771", "ADDRESSSTREETNAME": "Ang Mo Kio Avenue 1", "POSTAL_CODE": "569978", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "875CE250AF53500D", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8496668, 1.3633023 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 331, "VENUE": "Bedok Stadium", "ADDRESSBLOCKHOUSENUMBER": "1", "ADDRESSSTREETNAME": "Bedok North Street 2", "POSTAL_CODE": "469642", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "89F15A32A4DAFEC0", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.9388188, 1.3260987 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 332, "VENUE": "Bishan Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "5", "ADDRESSSTREETNAME": "Bishan Street 14", "POSTAL_CODE": "579783", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "8BBE9814CB5F5705", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8509221, 1.3552826 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 333, "VENUE": "Bishan Clubhouse", "ADDRESSBLOCKHOUSENUMBER": "3", "ADDRESSSTREETNAME": "Bishan Street 14", "POSTAL_CODE": "579780", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "68CF1CA26E294D0B", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8499905, 1.355075 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 334, "VENUE": "Bukit Batok Swimming Complex", "ADDRESSBLOCKHOUSENUMBER": "2", "ADDRESSSTREETNAME": "Bukit Batok Street 22", "POSTAL_CODE": "659581", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "0EAFCD8695C26380", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7479542, 1.3443316 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 350, "VENUE": "Kallang Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "8", "ADDRESSSTREETNAME": "Stadium Boulevard", "POSTAL_CODE": "397804", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "B34EF5554E2F8E9B", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8787557, 1.3056517 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 351, "VENUE": "Katong Swimming Complex", "ADDRESSBLOCKHOUSENUMBER": "111", "ADDRESSSTREETNAME": "Wilkinson Road", "POSTAL_CODE": "436752", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "BE5B2138EADF3130", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8860819, 1.3021056 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 352, "VENUE": "MOE (Evans)", "ADDRESSBLOCKHOUSENUMBER": "21", "ADDRESSSTREETNAME": "Evans Road", "POSTAL_CODE": "259366", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "6D37B8CEA5C96A25", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8190712, 1.3184619 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 353, "VENUE": "Tampines Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "1", "ADDRESSSTREETNAME": "Tampines Walk", "POSTAL_CODE": "528523", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "C57C470AEF02B161", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.9396836, 1.3534962 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 354, "VENUE": "Pasir Ris Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "120", "ADDRESSSTREETNAME": "Pasir Ris Central", "POSTAL_CODE": "519640", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "F878992227EF849D", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.9518225, 1.3744485 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 355, "VENUE": "Queenstown Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "473", "ADDRESSSTREETNAME": "Stirling Road", "POSTAL_CODE": "148948", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "E131B2CB13C94ADC", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8023885, 1.2968003 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 356, "VENUE": "Sengkang Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "57", "ADDRESSSTREETNAME": "Anchorvale Road", "POSTAL_CODE": "544964", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "CFBC33EAB876E4FB", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8857771, 1.3954657 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 357, "VENUE": "Senja-Cashew Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "101", "ADDRESSSTREETNAME": "Bukit Panjang Road", "POSTAL_CODE": "679910", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "BE804693A5D39521", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7646596, 1.3815868 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 358, "VENUE": "Serangoon Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "35", "ADDRESSSTREETNAME": "Yio Chu Kang Road", "POSTAL_CODE": "545552", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "DCA85DEBA544CB10", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8745939, 1.357039 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 359, "VENUE": "St. Wilfred Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "3", "ADDRESSSTREETNAME": "St. Wilfred Road", "POSTAL_CODE": "327920", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "96DC4883E6B1E8E7", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.861719, 1.3252269 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 360, "VENUE": "Toa Payoh Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "301", "ADDRESSSTREETNAME": "Lorong 6 Toa Payoh", "POSTAL_CODE": "319392", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "F303B64402DBB491", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8499868, 1.3306001 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 361, "VENUE": "Woodlands SC", "ADDRESSBLOCKHOUSENUMBER": "1", "ADDRESSSTREETNAME": "Woodlands Street 13", "POSTAL_CODE": "738597", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "114581671A2BA671", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.7803066, 1.4348954 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 362, "VENUE": "Yan Kit Playfield", "ADDRESSBLOCKHOUSENUMBER": "5", "ADDRESSSTREETNAME": "Yan Kit Road", "POSTAL_CODE": "088261", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "59225163C5D45BC2", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.842195, 1.2763229 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 363, "VENUE": "Yio Chu Kang Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "200", "ADDRESSSTREETNAME": "Ang Mo Kio Avenue 9", "POSTAL_CODE": "569770", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "10903DC6DD443E5B", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8457679, 1.3822724 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 364, "VENUE": "Yishun Sport Centre", "ADDRESSBLOCKHOUSENUMBER": "101", "ADDRESSSTREETNAME": "Yishun Avenue 1", "POSTAL_CODE": "769130", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "7B990C8B774F9D93", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8311774, 1.4120184 ] }, "place": null, "time": null },
-{ "type": "Feature", "properties": { "OBJECTID": 365, "VENUE": "Yishun Swimming Complex", "ADDRESSBLOCKHOUSENUMBER": "351", "ADDRESSSTREETNAME": "Yishun Avenue 3", "POSTAL_CODE": "769057", "DETAILS": "https://www.activesgcircle.gov.sg/facilities", "INC_CRC": "3E28E78F87215B3E", "FMEL_UPD_D": "20241024152749" }, "geometry": { "type": "Point", "coordinates": [ 103.8336924, 1.4240633 ] }, "place": null, "time": null }
+[
+  {
+    "VENUE": "Bukit Canberra Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "21",
+    "ADDRESSSTREETNAME": "Canberra Link",
+    "POSTAL_CODE": "756973",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "North"
+  },
+  {
+    "VENUE": "Bukit Gombak Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "810",
+    "ADDRESSSTREETNAME": "Bukit Batok West Avenue 5",
+    "POSTAL_CODE": "659088",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "Burghley Squash & Tennis Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "43",
+    "ADDRESSSTREETNAME": "Burghley Drive",
+    "POSTAL_CODE": "559020",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "Choa Chu Kang Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "1",
+    "ADDRESSSTREETNAME": "Choa Chu Kang Street 53",
+    "POSTAL_CODE": "689236",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "Clementi Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "518",
+    "ADDRESSSTREETNAME": "Clementi Avenue 3",
+    "POSTAL_CODE": "129907",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "Clementi Stadium",
+    "ADDRESSBLOCKHOUSENUMBER": "10",
+    "ADDRESSSTREETNAME": "West Coast Walk",
+    "POSTAL_CODE": "127156",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "Delta Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "900",
+    "ADDRESSSTREETNAME": "Tiong Bahru Road",
+    "POSTAL_CODE": "158790",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "Geylang East Swimming Complex",
+    "ADDRESSBLOCKHOUSENUMBER": "601",
+    "ADDRESSSTREETNAME": "Aljunied Avenue 1",
+    "POSTAL_CODE": "389862",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "Heartbeat@Bedok ActiveSG Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "11",
+    "ADDRESSSTREETNAME": "Bedok North Street 1",
+    "POSTAL_CODE": "469662",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "Hougang Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "93",
+    "ADDRESSSTREETNAME": "Hougang Avenue 4",
+    "POSTAL_CODE": "538832",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "Jalan Besar Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "100",
+    "ADDRESSSTREETNAME": "Tyrwhitt Road",
+    "POSTAL_CODE": "207542",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "Jurong East Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "21",
+    "ADDRESSSTREETNAME": "Jurong East Street 31",
+    "POSTAL_CODE": "609517",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "Jurong Lake Gardens ActiveSG Gym & Pool",
+    "ADDRESSBLOCKHOUSENUMBER": "30",
+    "ADDRESSSTREETNAME": "Yuan Ching Road",
+    "POSTAL_CODE": "618664",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "Jurong West Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "20",
+    "ADDRESSSTREETNAME": "Jurong West Street 93",
+    "POSTAL_CODE": "648965",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "Kallang Basin Swimming Complex",
+    "ADDRESSBLOCKHOUSENUMBER": "21",
+    "ADDRESSSTREETNAME": "Geylang Bahru Lane",
+    "POSTAL_CODE": "339627",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "ActiveSG Sport Park @ Bedok North",
+    "ADDRESSBLOCKHOUSENUMBER": "3",
+    "ADDRESSSTREETNAME": "Bedok North Street 2",
+    "POSTAL_CODE": "469643",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "ActiveSG Gym@Ang Mo Kio Community Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "795",
+    "ADDRESSSTREETNAME": "Ang Mo Kio Avenue 1",
+    "POSTAL_CODE": "569976",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "North"
+  },
+  {
+    "VENUE": "ActiveSG Gym@Enabling Village",
+    "ADDRESSBLOCKHOUSENUMBER": "20",
+    "ADDRESSSTREETNAME": "Lengkok Bahru",
+    "POSTAL_CODE": "159053",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "ActiveSG Gym@Fernvale Square",
+    "ADDRESSBLOCKHOUSENUMBER": "51A",
+    "ADDRESSSTREETNAME": "Sengkang West Avenue",
+    "POSTAL_CODE": "797384",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "North"
+  },
+  {
+    "VENUE": "ActiveSG Gym@Serangoon Central",
+    "ADDRESSBLOCKHOUSENUMBER": "264",
+    "ADDRESSSTREETNAME": "Serangoon Central",
+    "POSTAL_CODE": "550264",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "ActiveSG Gym@Toa Payoh",
+    "ADDRESSBLOCKHOUSENUMBER": "127A",
+    "ADDRESSSTREETNAME": "Lorong 1 Toa Payoh",
+    "POSTAL_CODE": "319899",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "ActiveSG Gym@Toa Payoh West Community Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "200",
+    "ADDRESSSTREETNAME": "Lorong 2 Toa Payoh",
+    "POSTAL_CODE": "319642",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "ActiveSG Hockey Village @ Boon Lay",
+    "ADDRESSBLOCKHOUSENUMBER": "88",
+    "ADDRESSSTREETNAME": "Boon Lay Place",
+    "POSTAL_CODE": "649883",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "ActiveSG Sport Village@Jurong Town",
+    "ADDRESSBLOCKHOUSENUMBER": "2",
+    "ADDRESSSTREETNAME": "International Road",
+    "POSTAL_CODE": "619618",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "Ang Mo Kio Swimming Complex",
+    "ADDRESSBLOCKHOUSENUMBER": "1771",
+    "ADDRESSSTREETNAME": "Ang Mo Kio Avenue 1",
+    "POSTAL_CODE": "569978",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "North"
+  },
+  {
+    "VENUE": "Bedok Stadium",
+    "ADDRESSBLOCKHOUSENUMBER": "1",
+    "ADDRESSSTREETNAME": "Bedok North Street 2",
+    "POSTAL_CODE": "469642",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "Bishan Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "5",
+    "ADDRESSSTREETNAME": "Bishan Street 14",
+    "POSTAL_CODE": "579783",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "North"
+  },
+  {
+    "VENUE": "Bishan Clubhouse",
+    "ADDRESSBLOCKHOUSENUMBER": "3",
+    "ADDRESSSTREETNAME": "Bishan Street 14",
+    "POSTAL_CODE": "579780",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "North"
+  },
+  {
+    "VENUE": "Bukit Batok Swimming Complex",
+    "ADDRESSBLOCKHOUSENUMBER": "2",
+    "ADDRESSSTREETNAME": "Bukit Batok Street 22",
+    "POSTAL_CODE": "659581",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "Kallang Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "8",
+    "ADDRESSSTREETNAME": "Stadium Boulevard",
+    "POSTAL_CODE": "397804",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "Katong Swimming Complex",
+    "ADDRESSBLOCKHOUSENUMBER": "111",
+    "ADDRESSSTREETNAME": "Wilkinson Road",
+    "POSTAL_CODE": "436752",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "MOE (Evans)",
+    "ADDRESSBLOCKHOUSENUMBER": "21",
+    "ADDRESSSTREETNAME": "Evans Road",
+    "POSTAL_CODE": "259366",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "Tampines Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "1",
+    "ADDRESSSTREETNAME": "Tampines Walk",
+    "POSTAL_CODE": "528523",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "Pasir Ris Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "120",
+    "ADDRESSSTREETNAME": "Pasir Ris Central",
+    "POSTAL_CODE": "519640",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "Queenstown Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "473",
+    "ADDRESSSTREETNAME": "Stirling Road",
+    "POSTAL_CODE": "148948",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "Sengkang Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "57",
+    "ADDRESSSTREETNAME": "Anchorvale Road",
+    "POSTAL_CODE": "544964",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "Senja-Cashew Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "101",
+    "ADDRESSSTREETNAME": "Bukit Panjang Road",
+    "POSTAL_CODE": "679910",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "West"
+  },
+  {
+    "VENUE": "Serangoon Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "35",
+    "ADDRESSSTREETNAME": "Yio Chu Kang Road",
+    "POSTAL_CODE": "545552",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "East"
+  },
+  {
+    "VENUE": "St. Wilfred Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "3",
+    "ADDRESSSTREETNAME": "St. Wilfred Road",
+    "POSTAL_CODE": "327920",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "Toa Payoh Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "301",
+    "ADDRESSSTREETNAME": "Lorong 6 Toa Payoh",
+    "POSTAL_CODE": "319392",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "Woodlands SC",
+    "ADDRESSBLOCKHOUSENUMBER": "1",
+    "ADDRESSSTREETNAME": "Woodlands Street 13",
+    "POSTAL_CODE": "738597",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "North"
+  },
+  {
+    "VENUE": "Yan Kit Playfield",
+    "ADDRESSBLOCKHOUSENUMBER": "5",
+    "ADDRESSSTREETNAME": "Yan Kit Road",
+    "POSTAL_CODE": "88261",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "South"
+  },
+  {
+    "VENUE": "Yio Chu Kang Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "200",
+    "ADDRESSSTREETNAME": "Ang Mo Kio Avenue 9",
+    "POSTAL_CODE": "569770",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "North"
+  },
+  {
+    "VENUE": "Yishun Sport Centre",
+    "ADDRESSBLOCKHOUSENUMBER": "101",
+    "ADDRESSSTREETNAME": "Yishun Avenue 1",
+    "POSTAL_CODE": "769130",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "North"
+  },
+  {
+    "VENUE": "Yishun Swimming Complex",
+    "ADDRESSBLOCKHOUSENUMBER": "351",
+    "ADDRESSSTREETNAME": "Yishun Avenue 3",
+    "POSTAL_CODE": "769057",
+    "DETAILS": "https://www.activesgcircle.gov.sg/facilities",
+    "REGION": "North"
+  }
 ]
-}
